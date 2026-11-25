@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samsung O'zbekiston | Smartfonlar, Televizorlar, Maishiy Texnika</title>
+  <meta name="description" content="Samsung O'zbekiston rasmiy sayti. Galaxy S24 Ultra, Z Fold6, Neo QLED TV va Bespoke AI aqlli maishiy texnikalarni kashf eting.">
+  <link rel="icon" type="image/x-icon" href="https://images.samsung.com/is/image/samsung/assets/Samsung_Orig_Wordmark_BLUE_RGB.jpg">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Notification & Utility Bar -->
+  <aside class="top-bar" aria-label="Foydali havolalar va aloqa">
+    <div class="container top-bar-container">
+      <div class="top-bar-left">
+        <span class="region-info"><i class="fa-solid fa-location-dot"></i> O'zbekiston / Toshkent</span>
+        <span class="hotline"><i class="fa-solid fa-phone"></i> Aloqa markazi: <a href="tel:08001207777">0 800 120 77 77</a> (Bepul)</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="#support" class="top-link">Qo'llab-quvvatlash</a>
+        <a href="#promos" class="top-link">Aksiyalar</a>
+        <div class="lang-switcher" id="langSwitcher">
+          <button class="lang-btn active" data-lang="uz">O'Z</button>
+          <span class="divider">|</span>
+          <button class="lang-btn" data-lang="ru">РУ</button>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Mavzuni almashtirish" title="Tungi / Kunduzgi rejim">
+          <i class="fa-regular fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Main Header -->
+  <header class="main-header" id="mainHeader">
+    <div class="container header-container">
+      <!-- Samsung Official Logo -->
+      <a href="#" class="brand-logo" aria-label="Samsung O'zbekiston Bosh sahifasi">
+        <svg class="samsung-svg-logo" viewBox="0 0 100 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12.5 13.5c0 1.9-1.5 3.3-4.2 3.3-2.1 0-3.6-1-4-2.4l2.5-1c.2.6.7 1.2 1.5 1.2.9 0 1.5-.5 1.5-1.1 0-1.8-5.3-.9-5.3-5.2 0-2 1.6-3.2 4-3.2 1.9 0 3.3.9 3.8 2.3l-2.4 1c-.3-.6-.7-1.1-1.4-1.1-.8 0-1.4.4-1.4 1 0 1.7 5.4.9 5.4 5.2zm8.3-8.3h2.6l4.2 11.4h-2.9l-.7-2.2H19.7l-.7 2.2h-2.8l4.6-11.4zm2 7.1l-1.3-4.3-1.4 4.3h2.7zm11.2-7.1h3.3l3.2 6.7 3.2-6.7h3.3v11.4h-2.7V9.7l-2.9 6h-1.8l-2.9-6v6.9H34V5.2zm23.6 8.3c0 1.9-1.5 3.3-4.2 3.3-2.1 0-3.6-1-4-2.4l2.5-1c.2.6.7 1.2 1.5 1.2.9 0 1.5-.5 1.5-1.1 0-1.8-5.3-.9-5.3-5.2 0-2 1.6-3.2 4-3.2 1.9 0 3.3.9 3.8 2.3l-2.4 1c-.3-.6-.7-1.1-1.4-1.1-.8 0-1.4.4-1.4 1 0 1.7 5.4.9 5.4 5.2zm7.7-8.3v7.3c0 2.6 1.5 4.3 4.2 4.3 2.7 0 4.2-1.7 4.2-4.3V5.2h-2.7v7.2c0 1.3-.6 2-1.5 2-.9 0-1.5-.7-1.5-2V5.2h-2.7zm15.4 0v11.4h2.5l5.2-7.3v7.3h2.7V5.2h-2.5l-5.2 7.3V5.2h-2.7zm20.8 5.7h3.8v4.9c-1 1-2.5 1.7-4.2 1.7-3.9 0-6.6-2.9-6.6-6.6 0-3.8 2.8-6.6 6.8-6.6 2.3 0 4 1 4.8 2.3l-2.4 1.2c-.5-.7-1.3-1.2-2.4-1.2-2.3 0-4 1.8-4 4.3 0 2.4 1.7 4.3 4 4.3 1.1 0 1.9-.4 2.5-.9v-2.8H89.5v-2.3z"/>
+        </svg>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Asosiy menyu">
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown">
+            <a href="#products" class="nav-link" data-category="phones">Smartfonlar & Planshetlar <i class="fa-solid fa-chevron-down"></i></a>
+            <div class="nav-dropdown">
+              <div class="dropdown-content">
+                <div class="dropdown-col">
+                  <h4>Galaxy Flagman</h4>
+                  <a href="#products" onclick="filterCatalog('phones')">Galaxy S24 Ultra</a>
+                  <a href="#products" onclick="filterCatalog('phones')">Galaxy S24+ | S24</a>
+                  <a href="#products" onclick="filterCatalog('phones')">Galaxy S24 FE</a>
+                </div>
+                <div class="dropdown-col">
+                  <h4>Buklanuvchi smartfonlar</h4>
+                  <a href="#products" onclick="filterCatalog('phones')">Galaxy Z Fold6</a>
+                  <a href="#products" onclick="filterCatalog('phones')">Galaxy Z Flip6</a>
+                </div>
+                <div class="dropdown-col">
+                  <h4>Galaxy A & Planshetlar</h4>
+                  <a href="#products" onclick="filterCatalog('phones')">Galaxy A55 | A35 5G</a>
+                  <a href="#products" onclick="filterCatalog('phones')">Galaxy Tab S10 Ultra</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="#products" class="nav-link" data-category="tv">TV & Audio <i class="fa-solid fa-chevron-down"></i></a>
+            <div class="nav-dropdown">
+              <div class="dropdown-content">
+                <div class="dropdown-col">
+                  <h4>Televizorlar</h4>
+                  <a href="#products" onclick="filterCatalog('tv')">Neo QLED 8K / 4K</a>
+                  <a href="#products" onclick="filterCatalog('tv')">OLED TV</a>
+                  <a href="#products" onclick="filterCatalog('tv')">The Frame Dizaynerlik TV</a>
+                </div>
+                <div class="dropdown-col">
+                  <h4>Audio tizimlar</h4>
+                  <a href="#products" onclick="filterCatalog('tv')">Q-Seriyali Soundbarlar</a>
+                  <a href="#products" onclick="filterCatalog('tv')">Music Frame dinamiklari</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="#products" class="nav-link" data-category="appliances">Maishiy Texnika <i class="fa-solid fa-chevron-down"></i></a>
+            <div class="nav-dropdown">
+              <div class="dropdown-content">
+                <div class="dropdown-col">
+                  <h4>Oshxona texnikasi</h4>
+                  <a href="#products" onclick="filterCatalog('appliances')">Bespoke Sovutgichlar</a>
+                  <a href="#products" onclick="filterCatalog('appliances')">Mikroto'lqinli pechlar</a>
+                </div>
+                <div class="dropdown-col">
+                  <h4>Kiyim va uy tozaligi</h4>
+                  <a href="#products" onclick="filterCatalog('appliances')">AI Kir yuvish mashinalari</a>
+                  <a href="#products" onclick="filterCatalog('appliances')">Bespoke Jet Changyutkichlar</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#products" class="nav-link" onclick="filterCatalog('wearables')">Smart Watch & Audio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#products" class="nav-link" onclick="filterCatalog('monitors')">IT & Monitorlar</a>
+          </li>
+          <li class="nav-item">
+            <a href="#ai-innovations" class="nav-link nav-highlight">Galaxy AI ✨</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="header-actions">
+        <!-- Live Search Trigger -->
+        <button class="action-btn search-trigger" id="searchTrigger" aria-label="Qidiruv" title="Mahsulotlarni qidirish">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+        <!-- Wishlist / Sevimlilar -->
+        <button class="action-btn wishlist-trigger" id="wishlistTrigger" aria-label="Sevimlilar" title="Saqlangan mahsulotlar">
+          <i class="fa-regular fa-heart"></i>
+          <span class="badge" id="wishlistBadge">0</span>
+        </button>
+
+        <!-- Cart / Savatcha -->
+        <button class="action-btn cart-trigger" id="cartTrigger" aria-label="Savatcha" title="Xaridlar savatchasi">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="badge" id="cartBadge">0</span>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="action-btn mobile-menu-toggle" id="mobileMenuToggle" aria-label="Mobil menyu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <span class="mobile-logo">SAMSUNG</span>
+      <button class="close-btn" id="closeMobileDrawer">&times;</button>
+    </div>
+    <div class="mobile-drawer-body">
+      <div class="mobile-search-box">
+        <input type="text" id="mobileSearchInput" placeholder="Samsung mahsulotlarini qidirish...">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <ul class="mobile-nav-list">
+        <li><a href="#products" onclick="filterCatalog('phones'); closeMobileMenu();"><i class="fa-solid fa-mobile-screen"></i> Smartfonlar & Planshetlar</a></li>
+        <li><a href="#products" onclick="filterCatalog('tv'); closeMobileMenu();"><i class="fa-solid fa-tv"></i> Televizorlar & Audio</a></li>
+        <li><a href="#products" onclick="filterCatalog('appliances'); closeMobileMenu();"><i class="fa-solid fa-kitchen-set"></i> Maishiy Texnika</a></li>
+        <li><a href="#products" onclick="filterCatalog('wearables'); closeMobileMenu();"><i class="fa-solid fa-clock"></i> Galaxy Watch & Buds</a></li>
+        <li><a href="#products" onclick="filterCatalog('monitors'); closeMobileMenu();"><i class="fa-solid fa-display"></i> IT & Monitorlar</a></li>
+        <li><a href="#ai-innovations" onclick="closeMobileMenu();" class="mobile-highlight"><i class="fa-solid fa-wand-magic-sparkles"></i> Galaxy AI Innovatsiyalari</a></li>
+        <li><a href="#promos" onclick="closeMobileMenu();"><i class="fa-solid fa-tag"></i> Aksiyalar & Maxsus takliflar</a></li>
+        <li><a href="#support" onclick="closeMobileMenu();"><i class="fa-solid fa-headset"></i> Qo'llab-quvvatlash</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <p><i class="fa-solid fa-phone"></i> 0 800 120 77 77</p>
+        <p><i class="fa-solid fa-clock"></i> 24/7 Bepul aloqa markazi</p>
+      </div>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+  <!-- Hero Carousel Section -->
+  <section class="hero-carousel" id="heroCarousel" aria-label="Bosh qahramon slaydlar">
+    <div class="slides-container" id="slidesContainer">
+
+      <!-- Slide 1: Galaxy Flagship / Galaxy AI -->
+      <article class="hero-slide active" data-slide="0">
+        <div class="hero-bg-media">
+          <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/home/2026-09/Galaxy-S26-Series_HOME-Hero-KV_PC_1920x1080_LTR_r2.jpg" alt="Galaxy S24 Ultra & Galaxy AI" class="hero-img">
+        </div>
+        <div class="hero-overlay">
+          <div class="container hero-content">
+            <span class="hero-tag">YANGI AVLOD SUN'IY INTELLEKTI</span>
+            <h1 class="hero-title">Galaxy S24 Ultra</h1>
+            <p class="hero-desc">Galaxy AI bu yerda. Titanium korpus, 200 MP kamera va yangi kashfiyotlar davri sizni kutmoqda.</p>
+            <div class="hero-buttons">
+              <a href="#products" class="btn btn-primary" onclick="openProductModal(1)"><i class="fa-solid fa-cart-plus"></i> Hoziroq xarid qilish</a>
+              <a href="#ai-innovations" class="btn btn-secondary"><i class="fa-solid fa-sparkles"></i> Galaxy AI bilan tanishish</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Slide 2: Neo QLED 8K / 4K -->
+      <article class="hero-slide" data-slide="1">
+        <div class="hero-bg-media">
+          <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/home/2026-09/2026-home-feature-kv-mini-led-pc-1440x810_1.mp4_snapshot_00.02.087.jpg" alt="Samsung Neo QLED 8K TV" class="hero-img">
+        </div>
+        <div class="hero-overlay">
+          <div class="container hero-content">
+            <span class="hero-tag">AI VISION BILAN KUCHAYTIRILGAN</span>
+            <h2 class="hero-title">Neo QLED 4K & 8K</h2>
+            <p class="hero-desc">Haqiqiy tasvir sehri va 8K AI Upscaling. Har bir lahzani kinoteatrdagidek his eting.</p>
+            <div class="hero-buttons">
+              <a href="#products" class="btn btn-primary" onclick="openProductModal(8)"><i class="fa-solid fa-eye"></i> Modellarni ko'rish</a>
+              <a href="#products" class="btn btn-secondary" onclick="filterCatalog('tv')">Barcha televizorlar</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Slide 3: Bespoke AI Appliances -->
+      <article class="hero-slide" data-slide="2">
+        <div class="hero-bg-media">
+          <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/home/2026-09/bespoke-ai-kv-pc-1440x810.jpg" alt="Samsung Bespoke AI Maishiy Texnika" class="hero-img">
+        </div>
+        <div class="hero-overlay">
+          <div class="container hero-content">
+            <span class="hero-tag">AQLLI VA ESTETIK UY</span>
+            <h2 class="hero-title">Bespoke AI Uyingizda</h2>
+            <p class="hero-desc">SmartThings orqali 70% gacha energiya tejash va har bir detalda shaxsiy dizayn erkinligi.</p>
+            <div class="hero-buttons">
+              <a href="#products" class="btn btn-primary" onclick="filterCatalog('appliances')"><i class="fa-solid fa-house-laptop"></i> Bespoke to'plami</a>
+              <a href="#products" class="btn btn-secondary" onclick="openProductModal(11)">Muzlatgichlarni ko'rish</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Slide 4: Galaxy Watch & Wearables -->
+      <article class="hero-slide" data-slide="3">
+        <div class="hero-bg-media">
+          <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/home/2026-09/HOME_Feature-KV_Galaxy-Watch9_PC_1440x810_LTR.jpg" alt="Galaxy Watch & Galaxy Buds" class="hero-img">
+        </div>
+        <div class="hero-overlay">
+          <div class="container hero-content">
+            <span class="hero-tag">HAR KUNI CHEKSIZ HARAKAT</span>
+            <h2 class="hero-title">Galaxy Watch & Buds Pro</h2>
+            <p class="hero-desc">Shaxsiy fitnes murabbiyingiz va Hi-Res sifatli musiqangiz har doim yoningizda.</p>
+            <div class="hero-buttons">
+              <a href="#products" class="btn btn-primary" onclick="filterCatalog('wearables')"><i class="fa-solid fa-heart-pulse"></i> Gadjetlarni tanlash</a>
+              <a href="#products" class="btn btn-secondary" onclick="openProductModal(5)">Batafsil ma'lumot</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Carousel Controls -->
+    <div class="carousel-nav">
+      <button class="carousel-arrow prev-btn" id="prevSlide" aria-label="Oldingi slayd"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="carousel-indicators" id="carouselIndicators">
+        <button class="indicator active" data-index="0" aria-label="1-slayd"></button>
+        <button class="indicator" data-index="1" aria-label="2-slayd"></button>
+        <button class="indicator" data-index="2" aria-label="3-slayd"></button>
+        <button class="indicator" data-index="3" aria-label="4-slayd"></button>
+      </div>
+      <button class="carousel-arrow next-btn" id="nextSlide" aria-label="Keyingi slayd"><i class="fa-solid fa-chevron-right"></i></button>
+      <button class="carousel-pause" id="pausePlayBtn" aria-label="Avto-ijroni to'xtatish / boshlash"><i class="fa-solid fa-pause"></i></button>
+    </div>
+  </section>
+
+  <!-- Quick Category Bar -->
+  <section class="quick-categories" aria-label="Mahsulot toifalari">
+    <div class="container">
+      <div class="category-pills">
+        <button class="cat-pill active" onclick="filterCatalog('all')">
+          <span class="cat-icon"><i class="fa-solid fa-grip"></i></span>
+          <span class="cat-label">Barchasi</span>
+        </button>
+        <button class="cat-pill" onclick="filterCatalog('phones')">
+          <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/gnb/2609/Umid_Galaxy_A18_300x208_transparent.png" alt="Smartfonlar" class="cat-thumb">
+          <span class="cat-label">Smartfonlar</span>
+        </button>
+        <button class="cat-pill" onclick="filterCatalog('wearables')">
+          <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/gnb/2609/Wearables_L1_Product_2-4.png" alt="Soatlar" class="cat-thumb">
+          <span class="cat-label">Soatlar & Buds</span>
+        </button>
+        <button class="cat-pill" onclick="filterCatalog('tv')">
+          <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/gnb/2609/TV_Video__L1_Product_2-3.png" alt="Televizorlar" class="cat-thumb">
+          <span class="cat-label">Televizorlar</span>
+        </button>
+        <button class="cat-pill" onclick="filterCatalog('appliances')">
+          <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/gnb/2609/Appliances__L1_Product_No_AC_2-8.png" alt="Maishiy Texnika" class="cat-thumb">
+          <span class="cat-label">Maishiy texnika</span>
+        </button>
+        <button class="cat-pill" onclick="filterCatalog('monitors')">
+          <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/gnb/2609/PC_Monitors__L1_Product_Monitor_only_2-9.png" alt="Monitorlar" class="cat-thumb">
+          <span class="cat-label">Monitorlar</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Galaxy AI Feature Showcase -->
+  <section class="ai-section" id="ai-innovations">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Innovatsion Texnologiya</span>
+        <h2 class="section-title">Galaxy AI — Kundalik hayotingizdagi yangi kuch</h2>
+        <p class="section-subtitle">Matn, audio va tasvirlar bilan ishlashning inqilobiy tajribasini sinab ko'ring.</p>
+      </div>
+
+      <div class="ai-showcase-box">
+        <!-- AI Navigation Tabs -->
+        <div class="ai-tabs" role="tablist">
+          <button class="ai-tab active" data-target="circle" role="tab" aria-selected="true">
+            <i class="fa-regular fa-circle-dot"></i> Circle to Search
+          </button>
+          <button class="ai-tab" data-target="translate" role="tab" aria-selected="false">
+            <i class="fa-solid fa-language"></i> Live Translate
+          </button>
+          <button class="ai-tab" data-target="photo" role="tab" aria-selected="false">
+            <i class="fa-solid fa-crop-simple"></i> Photo Assist
+          </button>
+          <button class="ai-tab" data-target="note" role="tab" aria-selected="false">
+            <i class="fa-solid fa-file-pen"></i> Note Assist
+          </button>
+        </div>
+
+        <!-- AI Tab Panels -->
+        <div class="ai-content-wrapper">
+          <!-- Circle to Search Tab -->
+          <div class="ai-panel active" id="ai-panel-circle">
+            <div class="ai-panel-grid">
+              <div class="ai-text">
+                <span class="ai-badge">Google bilan hamkorlikda</span>
+                <h3>Oddiygina aylanaga oling va bir zumda toping</h3>
+                <p>Ekranda ko'rgan har qanday narsangizni (kiyim, diqqatga sazovor joy, mashina yoki taom) barmog'ingiz bilan aylanaga oling va Google qidiruv natijalarini ilovadan chiqmasdan oling.</p>
+                <ul class="ai-features-list">
+                  <li><i class="fa-solid fa-check"></i> Ilovalar o'rtasida o'tish shart emas</li>
+                  <li><i class="fa-solid fa-check"></i> Yuqori aniqlikdagi sun'iy intellekt tahlili</li>
+                  <li><i class="fa-solid fa-check"></i> S Pen yoki barmog'ingiz bilan qulay boshqaruv</li>
+                </ul>
+              </div>
+              <div class="ai-visual">
+                <div class="phone-frame">
+                  <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/f2607/home/HOME_Feature-Card_Galaxy-S26-S26-plus_560x560.jpg" alt="Galaxy AI Circle to Search Demo">
+                  <div class="interactive-circle-pulse">
+                    <span class="search-pulse"></span>
+                    <span class="search-tooltip"><i class="fa-brands fa-google"></i> Qidiruv natijasi topildi!</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Live Translate Tab -->
+          <div class="ai-panel" id="ai-panel-translate">
+            <div class="ai-panel-grid">
+              <div class="ai-text">
+                <span class="ai-badge">Muloqot to'siqsiz</span>
+                <h3>Telefon qo'ng'iroqlari vaqtida jonli ikki tomonlama tarjima</h3>
+                <p>Chet ellik hamkorlar yoki do'stlar bilan o'z ona tilingizda gaplashing. Galaxy AI ovozingizni suhbatdoshingiz tiliga, uning javobini esa sizga real vaqtda tarjima qilib beradi.</p>
+                <div class="translation-demo-box">
+                  <div class="chat-bubble left">
+                    <span class="sender">Siz (O'zbekcha):</span>
+                    <p>"Assalomu alaykum, men mehmonxona bron qilmoqchiman."</p>
+                  </div>
+                  <div class="chat-bubble right">
+                    <span class="sender">Galaxy AI (Inglizcha):</span>
+                    <p>"Hello! I would like to make a hotel reservation."</p>
+                  </div>
+                </div>
+              </div>
+              <div class="ai-visual">
+                <div class="visual-card">
+                  <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/f2607/home/HOME_Explore-Card_One-UI_PC_312x312.jpg" alt="Galaxy AI Live Translate">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo Assist Tab -->
+          <div class="ai-panel" id="ai-panel-photo">
+            <div class="ai-panel-grid">
+              <div class="ai-text">
+                <span class="ai-badge">Professional Fototahrir</span>
+                <h3>Ob'ektlarni siljiting, o'chiring va bo'shliqlarni to'ldiring</h3>
+                <p>Suratingizdagi keraksiz odam yoki buyumni osongina olib tashlang yoki ob'ekt o'rnini o'zgartiring. Generativ sun'iy intellekt fonni xuddi haqiqatdagidek to'ldirib beradi.</p>
+                <ul class="ai-features-list">
+                  <li><i class="fa-solid fa-check"></i> Keraksiz soyalar va akslanishlarni yo'qotish</li>
+                  <li><i class="fa-solid fa-check"></i> Rasmni to'g'irlashda bo'sh chetlarni to'ldirish</li>
+                  <li><i class="fa-solid fa-check"></i> Sekinlashtirilgan video (Instant Slow-mo)</li>
+                </ul>
+              </div>
+              <div class="ai-visual">
+                <div class="visual-card">
+                  <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/home/2026-08/new/HOME_Feature-Card_Galaxy-S26-FE_560x560.jpg" alt="Galaxy AI Photo Assist">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Note Assist Tab -->
+          <div class="ai-panel" id="ai-panel-note">
+            <div class="ai-panel-grid">
+              <div class="ai-text">
+                <span class="ai-badge">Samarali Mehnat</span>
+                <h3>Uzoq matnlarni bir zumda xulosalash va tartibga solish</h3>
+                <p>Katta hajmdagi konspektlar yoki yig'ilish bayonnomalarini Galaxy AI daqiqa ichida asosiy tezislarga ajratib, chiroyli sarlavhalar va qulay shaklda tayyorlab beradi.</p>
+                <div class="note-demo-box">
+                  <div class="note-row"><i class="fa-solid fa-bolt text-warning"></i> 5 sahifali matn -> 3 ta asosiy xulosa</div>
+                  <div class="note-row"><i class="fa-solid fa-spell-check text-success"></i> Avtomatik grammatika va orfografiya tekshiruvi</div>
+                  <div class="note-row"><i class="fa-solid fa-table-list text-primary"></i> Matnlarni jadvallashtirish va formatlash</div>
+                </div>
+              </div>
+              <div class="ai-visual">
+                <div class="visual-card">
+                  <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/f2607/home/HOME_Explore-Card_Smart-Switch_PC_312x312_local_gui_vari_ver.jpg" alt="Galaxy AI Note Assist">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Catalog Section -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <div class="header-left">
+          <span class="section-badge">Samsung Katalogi</span>
+          <h2 class="section-title">Eng so'nggi va ommabop mahsulotlar</h2>
+        </div>
+        <div class="header-filters">
+          <!-- Category Tabs -->
+          <div class="filter-tabs" id="catalogFilterTabs">
+            <button class="filter-tab active" data-filter="all">Barchasi</button>
+            <button class="filter-tab" data-filter="phones">Smartfonlar</button>
+            <button class="filter-tab" data-filter="wearables">Soatlar & Audio</button>
+            <button class="filter-tab" data-filter="tv">TV & Soundbar</button>
+            <button class="filter-tab" data-filter="appliances">Maishiy texnika</button>
+            <button class="filter-tab" data-filter="monitors">Monitorlar</button>
+          </div>
+
+          <!-- Sorting Dropdown -->
+          <div class="sort-box">
+            <label for="catalogSort" class="sr-only">Saralash:</label>
+            <select id="catalogSort" class="custom-select" aria-label="Mahsulotlarni saralash">
+              <option value="popular">Ommabopligi bo'yicha</option>
+              <option value="price-asc">Narxi: Arzondan qimmatga</option>
+              <option value="price-desc">Narxi: Qimmatdan arzonga</option>
+              <option value="name">Nomi bo'yicha</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsGrid">
+        <!-- Dynamically rendered by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Showcase: Bespoke Ecosystem & SmartThings -->
+  <section class="ecosystem-section" id="ecosystem">
+    <div class="container">
+      <div class="ecosystem-card">
+        <div class="ecosystem-grid">
+          <div class="ecosystem-content">
+            <span class="eco-badge"><i class="fa-solid fa-house-signal"></i> SmartThings Integratsiyasi</span>
+            <h2 class="eco-title">Aqlli xonadon, yagona ekotizim</h2>
+            <p class="eco-desc">Barcha Samsung qurilmalaringizni bitta ilova orqali boshqaring. Televizor, sovutgich, kir yuvish mashinasi va telefoningiz bir-biri bilan uzluksiz uyg'unlikda ishlaydi.</p>
+            <div class="eco-stats">
+              <div class="stat-item">
+                <span class="stat-num">-70%</span>
+                <span class="stat-label">AI Energy tejami</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num">300M+</span>
+                <span class="stat-label">SmartThings a'zolari</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-num">100%</span>
+                <span class="stat-label">Xavfsiz Knox tizimi</span>
+              </div>
+            </div>
+            <a href="#products" class="btn btn-primary" onclick="filterCatalog('appliances')">Bespoke qurilmalarni kashf eting</a>
+          </div>
+          <div class="ecosystem-image">
+            <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/home/2026-09/bespoke-ai-kv-pc-1440x810.jpg" alt="Samsung SmartThings & Bespoke Ekotizimi">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore Stories & Articles Section -->
+  <section class="stories-section" id="stories">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-badge">Samsung Hayoti</span>
+        <h2 class="section-title">Yangi imkoniyatlar va maslahatlar</h2>
+        <p class="section-subtitle">Qurilmalaringiz imkoniyatlaridan to'liq foydalanishingiz uchun foydali maqolalar.</p>
+      </div>
+
+      <div class="stories-grid">
+        <article class="story-card">
+          <div class="story-img-wrap">
+            <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/f2607/home/HOME_Explore-Card_One-UI_PC_312x312.jpg" alt="One UI 6">
+          </div>
+          <div class="story-info">
+            <span class="story-date">Dasturiy ta'minot</span>
+            <h3>One UI: Shaxsiy qulaylik va xavfsizlikning yangi darajasi</h3>
+            <p>Yangi vidjetlar, moslashtiriladigan bloklash ekrani va soddalashtirilgan interfeys bilan tanishing.</p>
+            <a href="#products" class="story-link">Batafsil o'qish <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <div class="story-img-wrap">
+            <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/f2607/home/HOME_Explore-Card_Samsung-Health_PC_312x312.jpg" alt="Samsung Health">
+          </div>
+          <div class="story-info">
+            <span class="story-date">Salomatlik</span>
+            <h3>Samsung Health: Har kuni o'zingizni eng yaxshi his eting</h3>
+            <p>Uyqu fazalarini tahlil qilish, yurak urishi va kunlik faollikni nazorat qilish bo'yicha aqlli tavsiyalar.</p>
+            <a href="#products" class="story-link">Batafsil o'qish <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <div class="story-img-wrap">
+            <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/f2607/home/HOME_Explore-Card_Smart-Switch_PC_312x312_local_gui_vari_ver.jpg" alt="Smart Switch">
+          </div>
+          <div class="story-info">
+            <span class="story-date">Qulaylik</span>
+            <h3>Smart Switch: Yangi Galaxy'ga o'tish bir necha daqiqada</h3>
+            <p>Eski telefoningizdagi barcha rasmlar, kontaktlar va ilovalarni simsiz yoki kabel orqali oson ko'chiring.</p>
+            <a href="#products" class="story-link">Batafsil o'qish <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <div class="story-img-wrap">
+            <img src="https://images.samsung.com/is/image/samsung/assets/uz_ru/f2607/home/HOME_Explore-Card_Switch-to-Galaxy_PC_312x312.jpg" alt="Galaxy Experience">
+          </div>
+          <div class="story-info">
+            <span class="story-date">Innovatsiya</span>
+            <h3>Nima uchun aynan Galaxy? 5 ta asosiy sabab</h3>
+            <p>Kameraning cheksiz imkoniyatlari, batareya quvvati va ekotizim afzalliklari haqida ekspertlar fikri.</p>
+            <a href="#products" class="story-link">Batafsil o'qish <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Badges & Customer Support Guarantees -->
+  <section class="trust-section" id="support">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <div class="trust-text">
+            <h4>Rasmiy Kafolat</h4>
+            <p>O'zbekiston bo'ylab 1 yillik rasmiy servis kafolati va original ehtiyot qismlar.</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <div class="trust-text">
+            <h4>Bepul Yetkazib Berish</h4>
+            <p>Toshkent shahri va butun O'zbekiston viloyatlariga tezkor va xavfsiz yetkazish.</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fa-solid fa-credit-card"></i></div>
+          <div class="trust-text">
+            <h4>Qulay Muddatli To'lov</h4>
+            <p>0% boshlang'ich to'lov, foizsiz va ortiqcha to'lovlarsiz qulay bo'lib to'lash imkoniyati.</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><i class="fa-solid fa-headset"></i></div>
+          <div class="trust-text">
+            <h4>24/7 Yordam Markazi</h4>
+            <p>0 800 120 77 77 raqami orqali istalgan vaqtda mutaxassislar maslahati.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter-section" id="promos">
+    <div class="container">
+      <div class="newsletter-card">
+        <div class="newsletter-content">
+          <i class="fa-regular fa-envelope-open newsletter-icon"></i>
+          <h2>Samsung yangiliklari va maxsus aksiyalarga a'zo bo'ling</h2>
+          <p>Yangi Galaxy taqdimotlari, chegirma kodlari va maxsus sovg'alardan birinchilardan bo'lib xabardor bo'ling.</p>
+          <form class="newsletter-form" id="newsletterForm" onsubmit="handleNewsletter(event)">
+            <input type="email" id="newsletterEmail" placeholder="Elektron pochtangizni kiriting..." required>
+            <button type="submit" class="btn btn-primary">Obuna bo'lish</button>
+          </form>
+          <span class="newsletter-note">Siz istalgan vaqtda obunani bekor qilishingiz mumkin.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h3>Mahsulotlar & Xizmatlar</h3>
+          <ul>
+            <li><a href="#products" onclick="filterCatalog('phones')">Smartfonlar</a></li>
+            <li><a href="#products" onclick="filterCatalog('phones')">Galaxy Buklanuvchilar</a></li>
+            <li><a href="#products" onclick="filterCatalog('wearables')">Galaxy Watch & Buds</a></li>
+            <li><a href="#products" onclick="filterCatalog('tv')">Neo QLED & OLED TV</a></li>
+            <li><a href="#products" onclick="filterCatalog('appliances')">Bespoke Muzlatgichlar</a></li>
+            <li><a href="#products" onclick="filterCatalog('appliances')">Kir yuvish mashinalari</a></li>
+            <li><a href="#products" onclick="filterCatalog('monitors')">Gaming Monitorlar</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Qo'llab-quvvatlash</h3>
+          <ul>
+            <li><a href="#support">Rasmiy servis markazlari</a></li>
+            <li><a href="#support">Kafolat shartlari</a></li>
+            <li><a href="#support">Foydalanuvchi qo'llanmalari</a></li>
+            <li><a href="#support">Dasturiy yangilanishlar</a></li>
+            <li><a href="#support">Smart Switch yuklab olish</a></li>
+            <li><a href="#support">Tez-tez beriladigan savollar</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Kompaniya haqida</h3>
+          <ul>
+            <li><a href="#">Samsung Electronics haqida</a></li>
+            <li><a href="#">Barqaror rivojlanish va ekologiya</a></li>
+            <li><a href="#">Karyera va vakansiyalar</a></li>
+            <li><a href="#">Yangiliklar va press-relizlar</a></li>
+            <li><a href="#">Etika va qonuniylik</a></li>
+            <li><a href="#">Biznes hamkorlik (B2B)</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact-col">
+          <h3>Bog'lanish & Ijtimoiy tarmoqlar</h3>
+          <p class="footer-phone"><i class="fa-solid fa-phone"></i> 0 800 120 77 77</p>
+          <p class="footer-sub">O'zbekiston bo'ylab shahar va mobil telefonlardan qo'ng'iroq qilish bepul (24/7)</p>
+          
+          <div class="social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://t.me" target="_blank" rel="noopener" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+
+          <div class="payment-partners">
+            <span class="pay-partner">Click</span>
+            <span class="pay-partner">Payme</span>
+            <span class="pay-partner">Uzum Pay</span>
+            <span class="pay-partner">Visa / Master</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-left">
+          <p>&copy; 2026 Samsung Electronics Co., Ltd. Barcha huquqlar himoyalangan.</p>
+          <p class="footer-disclaimer">Ushbu veb-saytdagi mahsulotlar, xususiyatlar va narxlar ma'lumot berish maqsadida taqdim etilgan.</p>
+        </div>
+        <div class="footer-bottom-links">
+          <a href="#">Maxfiylik siyosati</a>
+          <a href="#">Foydalanish shartlari</a>
+          <a href="#">Sayt xaritasi</a>
+          <a href="#">O'zbekiston / O'zbekcha</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-in Cart Drawer -->
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Xaridlar savatchasi">
+    <div class="cart-drawer-header">
+      <div class="cart-title-box">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <h3>Xaridlar savatchasi</h3>
+        <span class="cart-items-count" id="cartHeaderCount">(0)</span>
+      </div>
+      <button class="close-btn" id="closeCartDrawer" aria-label="Savatchani yopish">&times;</button>
+    </div>
+
+    <div class="cart-drawer-body" id="cartDrawerBody">
+      <!-- Items dynamically injected -->
+      <div class="empty-cart-state" id="emptyCartState">
+        <div class="empty-icon"><i class="fa-solid fa-basket-shopping"></i></div>
+        <h4>Savatchangiz bo'sh</h4>
+        <p>Samsung eng yaxshi mahsulotlarini kashf eting va savatchaga qo'shing.</p>
+        <button class="btn btn-primary" onclick="closeCart(); location.href='#products';">Katalogga o'tish</button>
+      </div>
+      <div class="cart-items-list" id="cartItemsList"></div>
+    </div>
+
+    <div class="cart-drawer-footer" id="cartDrawerFooter">
+      <!-- Promo code -->
+      <div class="promo-box">
+        <input type="text" id="promoCodeInput" placeholder="Promokod (masalan: SAMSUNG10)">
+        <button class="btn btn-sm btn-dark" onclick="applyPromoCode()">Qo'llash</button>
+      </div>
+      <div class="promo-discount-badge" id="promoDiscountBadge" style="display: none;">
+        <span>Promokod qo'llandi (-10%)</span>
+        <button onclick="removePromoCode()">&times;</button>
+      </div>
+
+      <!-- Totals -->
+      <div class="cart-totals">
+        <div class="total-row">
+          <span>Oraliq jami:</span>
+          <span id="cartSubtotal">0 so'm</span>
+        </div>
+        <div class="total-row discount-row" id="cartDiscountRow" style="display: none;">
+          <span>Chegirma:</span>
+          <span id="cartDiscount">0 so'm</span>
+        </div>
+        <div class="total-row">
+          <span>Yetkazib berish:</span>
+          <span class="free-text">BEPUL</span>
+        </div>
+        <div class="total-row final-total">
+          <span>Jami to'lov:</span>
+          <span id="cartFinalTotal">0 so'm</span>
+        </div>
+      </div>
+
+      <button class="btn btn-primary btn-block checkout-btn" onclick="openCheckoutModal()">
+        <i class="fa-solid fa-lock"></i> Buyurtmani rasmiylashtirish
+      </button>
+    </div>
+  </aside>
+
+  <!-- Quick View Product Modal -->
+  <div class="modal-backdrop" id="productModal">
+    <div class="modal-dialog product-modal-dialog">
+      <button class="modal-close-btn" onclick="closeProductModal()">&times;</button>
+      <div class="product-modal-content" id="productModalContent">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Full Search Modal -->
+  <div class="modal-backdrop" id="searchModal">
+    <div class="modal-dialog search-modal-dialog">
+      <div class="search-modal-header">
+        <div class="search-input-group">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="liveSearchInput" placeholder="Mahsulot nomi yoki toifasi bo'yicha qidiring (masalan: S24, TV, Bespoke, Watch)..." autocomplete="off">
+          <button class="clear-search-btn" id="clearSearchBtn">&times;</button>
+        </div>
+        <button class="modal-close-btn search-close" onclick="closeSearchModal()">&times;</button>
+      </div>
+
+      <div class="search-tags">
+        <span class="tag-title">Tezkor qidiruvlar:</span>
+        <button class="search-tag" onclick="setQuickSearch('Galaxy S24')">Galaxy S24</button>
+        <button class="search-tag" onclick="setQuickSearch('Neo QLED')">Neo QLED</button>
+        <button class="search-tag" onclick="setQuickSearch('Bespoke')">Bespoke</button>
+        <button class="search-tag" onclick="setQuickSearch('Watch')">Galaxy Watch</button>
+        <button class="search-tag" onclick="setQuickSearch('Buds')">Buds Pro</button>
+      </div>
+
+      <div class="search-results-area" id="searchResultsArea">
+        <p class="search-hint">Qidiruv natijalarini ko'rish uchun so'z kiriting...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Wishlist Modal -->
+  <div class="modal-backdrop" id="wishlistModal">
+    <div class="modal-dialog wishlist-modal-dialog">
+      <div class="modal-header">
+        <div class="title-with-icon">
+          <i class="fa-solid fa-heart text-danger"></i>
+          <h3>Sevimlilar ro'yxati</h3>
+        </div>
+        <button class="modal-close-btn" onclick="closeWishlistModal()">&times;</button>
+      </div>
+      <div class="modal-body" id="wishlistModalBody">
+        <!-- Wishlist items rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Checkout Modal -->
+  <div class="modal-backdrop" id="checkoutModal">
+    <div class="modal-dialog checkout-modal-dialog">
+      <div class="modal-header">
+        <h3><i class="fa-solid fa-bag-shopping"></i> Buyurtmani rasmiylashtirish</h3>
+        <button class="modal-close-btn" onclick="closeCheckoutModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="checkoutForm" onsubmit="handleCheckoutSubmit(event)">
+          <div class="form-section">
+            <h4>1. Xaridor ma'lumotlari</h4>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="orderName">Ism va Familiya *</label>
+                <input type="text" id="orderName" required placeholder="Masalan: Sardor Aliyev">
+              </div>
+              <div class="form-group">
+                <label for="orderPhone">Telefon raqam *</label>
+                <input type="tel" id="orderPhone" required placeholder="+998 90 123 45 67">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h4>2. Yetkazib berish manzili</h4>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="orderCity">Shahar / Viloyat *</label>
+                <select id="orderCity" required>
+                  <option value="Toshkent shahri">Toshkent shahri</option>
+                  <option value="Samarqand">Samarqand viloyati</option>
+                  <option value="Farg'ona">Farg'ona viloyati</option>
+                  <option value="Andijon">Andijon viloyati</option>
+                  <option value="Namangan">Namangan viloyati</option>
+                  <option value="Buxoro">Buxoro viloyati</option>
+                  <option value="Xorazm">Xorazm viloyati</option>
+                  <option value="Qashqadaryo">Qashqadaryo viloyati</option>
+                  <option value="Surxondaryo">Surxondaryo viloyati</option>
+                  <option value="Navoiy">Navoiy viloyati</option>
+                  <option value="Jizzax">Jizzax viloyati</option>
+                  <option value="Sirdaryo">Sirdaryo viloyati</option>
+                  <option value="Qoraqalpog'iston">Qoraqalpog'iston Respublikasi</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="orderAddress">Aniq manzil (Ko'cha, uy, xonadon) *</label>
+                <input type="text" id="orderAddress" required placeholder="Masalan: Amir Temur shoh ko'chasi, 45-uy">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h4>3. To'lov usuli</h4>
+            <div class="payment-options">
+              <label class="pay-option">
+                <input type="radio" name="payMethod" value="Click" checked>
+                <span class="pay-card"><i class="fa-solid fa-credit-card"></i> Click / Payme</span>
+              </label>
+              <label class="pay-option">
+                <input type="radio" name="payMethod" value="Uzum">
+                <span class="pay-card"><i class="fa-solid fa-wallet"></i> Uzum Pay</span>
+              </label>
+              <label class="pay-option">
+                <input type="radio" name="payMethod" value="Installment">
+                <span class="pay-card"><i class="fa-solid fa-calendar-days"></i> Muddatli to'lov (0-0-12)</span>
+              </label>
+              <label class="pay-option">
+                <input type="radio" name="payMethod" value="Cash">
+                <span class="pay-card"><i class="fa-solid fa-money-bill-wave"></i> Qabul qilinganda naqd</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="checkout-summary-box">
+            <div class="checkout-summary-row">
+              <span>To'lanadigan summa:</span>
+              <strong id="checkoutModalTotal">0 so'm</strong>
+            </div>
+            <p class="delivery-guarantee"><i class="fa-solid fa-truck"></i> Yetkazib berish bepul va sug'urtalangan.</p>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block btn-lg">
+            <i class="fa-solid fa-check"></i> Buyurtmani tasdiqlash
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Order Success Modal -->
+  <div class="modal-backdrop" id="successModal">
+    <div class="modal-dialog success-modal-dialog text-center">
+      <div class="success-icon-wrap">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+      <h2>Rahmat! Buyurtmangiz qabul qilindi</h2>
+      <p class="order-id-text">Buyurtma raqami: <strong id="successOrderId">#UZ-849201</strong></p>
+      <p class="success-message">Mutaxassisimiz buyurtma tafsilotlarini tasdiqlash uchun tez orada siz bilan bog'lanadi.</p>
+      <div class="success-details-box" id="successDetailsBox"></div>
+      <button class="btn btn-primary" onclick="closeSuccessModal()">Bosh sahifaga qaytish</button>
+    </div>
+  </div>
+
+  <!-- Toast Notifications Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Yuqoriga qaytish" title="Yuqoriga qaytish">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
